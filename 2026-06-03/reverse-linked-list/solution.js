@@ -17,7 +17,7 @@ class Solution {
         let prev = null
         let current = head
         while(current){
-            tempNext = current.next
+          let tempNext = current.next
             current.next = prev
             prev = current
             current = tempNext
